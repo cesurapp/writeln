@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Root -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta http-equiv="Content-Language" content="en">
+
+    <!-- Meta -->
+    <title>Network Status</title>
+    <meta name="description" content="WriteLN HTML Cloud Theme">
+    <meta name="keywords" content="WriteLN, Theme"/>
+    <meta name="copyright" content="WriteLN">
+
+    <!-- Icons -->
+    <link rel="icon" href="assets/static/favicon.png">
+
+    <!-- Assets -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+    <link rel="stylesheet" href="assets/dist/bootstrap.css">
+    <link rel="stylesheet" href="assets/dist/app.css">
+    <script src="assets/dist/jquery.min.js"></script>
+    <script src="assets/dist/bootstrap.min.js"></script>
+    <script src="assets/dist/app.js"></script>
+</head>
+<body>
+
+<!------------------------------------------------------
+ ******************    Head Nav   **********************
+ ------------------------------------------------------>
+<nav class="navbar navbar-expand-md">
+    <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand logo" href="index.html"><img src="assets/static/logo.svg" alt="WriteLN"></a>
+        <!-- End Logo -->
+
+        <!-- Navbar Toggler -->
+        <button class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <!-- End Navbar Toggler -->
+
+        <!-- Navigation -->
+        <div id="navigation" class="navbar-collapse collapse">
+            <div class="content d-md-flex">
+                <!--Left Menu Section-->
+                <ul class="navbar-nav ml-md-5 mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="cloud.html">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Resources</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item media" href="faq.html">
+                                <i class="far fa-question-circle"></i>
+                                <span class="media-body align-self-center">FAQ</span>
+                            </a>
+                            <a class="dropdown-item media" href="refferer.html">
+                                <i class="fas fa-hand-holding-usd"></i>
+                                <span class="media-body align-self-center">Support Programs</span>
+                            </a>
+                            <a class="dropdown-item media" href="api.html">
+                                <i class="fas fa-code"></i>
+                                <span class="media-body align-self-center">Api Documentation</span>
+                            </a>
+                            <a class="dropdown-item media" href="network-status.html">
+                                <i class="fas fa-server"></i>
+                                <span class="media-body align-self-center">Network Status</span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <!-- End Left Menu Section -->
+
+                <!-- Right Menu Section -->
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Company</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item media" href="about.html">About</a>
+                            <a class="dropdown-item media" href="teams.html">Teams</a>
+                            <a class="dropdown-item media" href="careers.html">Careers</a>
+                            <a class="dropdown-item media" href="news.html">News</a>
+                            <a class="dropdown-item media" href="legal.html">Legal</a>
+                            <a class="dropdown-item media" href="contact.html">Contact</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                            <i class="fas fa-globe"></i>
+                            <span class="text">Language</span>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#!">Deutsche</a>
+                            <a class="dropdown-item" href="#!">English</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Login</a></li>
+                    <li class="nav-item hrbottom">
+                        <hr>
+                        <a class="btn btn-success btnregister" href="#!">Register</a>
+                    </li>
+                </ul>
+                <!-- End Right Menu Section -->
+            </div>
+        </div>
+        <!-- End Navigation -->
+    </div>
+</nav>
+
+<!------------------------------------------------------
+ ***************    Container   ***********************
+ ------------------------------------------------------>
+<main role="main">
+    <!--Hero Section-->
+    <div class="d-flex align-items-center section-main">
+        <div class="back-gradient">
+            <span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div class="container title text-white">
+            <h1 class="display-4 mb-0">Network Status</h1>
+        </div>
+        <ul class="nav-pages">
+            <li><a data-toggle="collapse" aria-expanded="true" href="#datacenters">Datacenter</a></li>
+            <li><a data-toggle="collapse" href="#services">Services</a></li>
+            <li><a data-toggle="collapse" href="#maintenances">Maintenance</a></li>
+        </ul>
+    </div>
+    <!--End Hero Section-->
+
+    <div class="section">
+        <div class="container">
+            <div id="network-accordion">
+                <!--Section Datacenter-->
+                <ul id="datacenters" data-parent="#network-accordion" class="collapse show accordion-list list-unstyled mb-0">
+                    <li class="media border rounded p-4 mb-3">
+                        <div class="media-body">
+                            <h5 class="mb-1">New York</h5>
+                            <span class="fs--1">Status: Closed</span>
+                        </div>
+                        <span class="align-self-center mr-3 fs--1">United States</span>
+                        <i class="fas fa-check-circle ml-1 align-self-center text-danger fs-5"></i>
+                    </li>
+                    <li class="media border rounded p-4 mb-3">
+                        <div class="media-body">
+                            <h5 class="mb-1">San Francisco</h5>
+                            <span class="fs--1">Status: Closed</span>
+                        </div>
+                        <span class="align-self-center mr-3 fs--1">United States</span>
+                        <i class="fas fa-check-circle ml-1 align-self-center text-danger fs-5"></i>
+                    </li>
+                    <li class="media border rounded p-4 mb-3">
+                        <div class="media-body">
+                            <h5 class="mb-1">İstanbul</h5>
+                            <span class="fs--1">Status: Active</span>
+                        </div>
+                        <span class="align-self-center mr-3 fs--1">European</span>
+                        <i class="fas fa-check-circle ml-1 align-self-center text-success fs-5"></i>
+                    </li>
+                    <li class="media border rounded p-4 mb-3">
+                        <div class="media-body">
+                            <h5 class="mb-1">Amsterdam</h5>
+                            <span class="fs--1">Status: Closed</span>
+                        </div>
+                        <span class="align-self-center mr-3 fs--1">European</span>
+                        <i class="fas fa-check-circle ml-1 align-self-center text-danger fs-5"></i>
+                    </li>
+                    <li class="media border rounded p-4 mb-3">
+                        <div class="media-body">
+                            <h5 class="mb-1">Frankfurt</h5>
+                            <span class="fs--1">Status: Closed</span>
+                        </div>
+                        <span class="align-self-center mr-3 fs--1">European</span>
+                        <i class="fas fa-check-circle ml-1 align-self-center text-danger fs-5"></i>
+                    </li>
+                    <li class="media border rounded p-4 mb-3">
+                        <div class="media-body">
+                            <h5 class="mb-1">Paris</h5>
+                            <span class="fs--1">Status: Closed</span>
+                        </div>
+                        <span class="align-self-center mr-3 fs--1">European</span>
+                        <i class="fas fa-check-circle ml-1 align-self-center text-danger fs-5"></i>
+                    </li>
+                    <li class="media border rounded p-4 mb-3">
+                        <div class="media-body">
+                            <h5 class="mb-1">London</h5>
+                            <span class="fs--1">Status: Closed</span>
+                        </div>
+                        <span class="align-self-center mr-3 fs--1">European</span>
+                        <i class="fas fa-check-circle ml-1 align-self-center text-danger fs-5"></i>
+                    </li>
+                    <li class="media border rounded p-4 mb-3">
+                        <div class="media-body">
+                            <h5 class="mb-1">Singapore</h5>
+                            <span class="fs--1">Status: Closed</span>
+                        </div>
+                        <span class="align-self-center mr-3 fs--1">Asia</span>
+                        <i class="fas fa-check-circle ml-1 align-self-center text-danger fs-5"></i>
+                    </li>
+                    <li class="media border rounded p-4 mb-3">
+                        <div class="media-body">
+                            <h5 class="mb-1">Tokyo</h5>
+                            <span class="fs--1">Status: Closed</span>
+                        </div>
+                        <span class="align-self-center mr-3 fs--1">Asia</span>
+                        <i class="fas fa-check-circle ml-1 align-self-center text-danger fs-5"></i>
+                    </li>
+                </ul>
+                <!--End Section Datacenter-->
+
+                <!--Section Services-->
+                <ul id="services" data-parent="#network-accordion" class="collapse accordion-list list-unstyled mb-0">
+                    <li class="media border rounded p-4 mb-3">
+                        <div class="media-body">
+                            <h5 class="mb-1">API</h5>
+                            <span class="fs--1">Status: Active</span>
+                        </div>
+                        <span class="align-self-center mr-3 fs--1">Service</span>
+                        <i class="fas fa-check-circle ml-1 align-self-center text-success fs-5"></i>
+                    </li>
+                    <li class="media border rounded p-4 mb-3">
+                        <div class="media-body">
+                            <h5 class="mb-1">DNS</h5>
+                            <span class="fs--1">Status: Active</span>
+                        </div>
+                        <span class="align-self-center mr-3 fs--1">Service</span>
+                        <i class="fas fa-check-circle ml-1 align-self-center text-success fs-5"></i>
+                    </li>
+                    <li class="media border rounded p-4 mb-3">
+                        <div class="media-body">
+                            <h5 class="mb-1">Support Center</h5>
+                            <span class="fs--1">Status: Active</span>
+                        </div>
+                        <span class="align-self-center mr-3 fs--1">Service</span>
+                        <i class="fas fa-check-circle ml-1 align-self-center text-success fs-5"></i>
+                    </li>
+                </ul>
+                <!--End Section Services-->
+
+                <!--Section Maintenances-->
+                <ul id="maintenances" data-parent="#network-accordion" class="collapse accordion-list list-unstyled mb-0">
+                    <li class="d-flex flex-column border-bottom pb-4 mb-4">
+                        <div class="d-flex header">
+                            <h5>Server Maintenance</h5>
+                            <span class="text-right flex-fill fs--2">01.10.2021 04:00</span>
+                        </div>
+                        <div class="media-body">
+                            <div class="content">
+                                Lorem ipsum dolor sit amet.
+                            </div>
+                            <div class="d-block mt-2 text-right fs--2">
+                                <span class="text-success">
+                                    <i class="fas fa-check mr-2"></i><b>01.10.2021 04:10</b>
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="d-flex flex-column border-bottom pb-4 mb-4">
+                        <div class="d-flex header">
+                            <h5>Application Update</h5>
+                            <span class="text-right flex-fill fs--2">03.10.2021 04:00</span>
+                        </div>
+                        <div class="media-body">
+                            <div class="content">
+                                Lorem ipsum dolor sit amet.
+                            </div>
+                            <div class="d-block mt-2 text-right fs--2">
+                                <span class="text-info">
+                                    <span class="mr-2 border-right pr-2">10 minutes left.</span>
+                                    <i class="fas fa-spinner mr-2"></i><b>Under maintenance.</b>
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="d-flex flex-column border-bottom pb-4 mb-4">
+                        <div class="d-flex header">
+                            <h5>Server Down</h5>
+                            <span class="text-right flex-fill fs--2">05.10.2021 04:00</span>
+                        </div>
+                        <div class="media-body">
+                            <div class="content">
+                                Lorem ipsum dolor sit amet.
+                            </div>
+                            <div class="d-block mt-2 text-right fs--2">
+                                <span class="text-danger">
+                                    <span class="mr-2 border-right pr-2">05.10.2021 04:00</span>
+                                    <i class="far fa-calendar-alt mr-2"></i><b>05.10.2021 04:30</b>
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!--End Section Maintenances-->
+            </div>
+        </div>
+    </div>
+</main>
+
+<!------------------------------------------------------
+ *******************    Footer   ***********************
+ ------------------------------------------------------>
+<footer class="footer">
+    <!--Footer Background Section-->
+    <div class="back-footer">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <!--End Footer Background Section-->
+
+    <!--Footer Links Section-->
+    <div class="footersub">
+        <div class="container">
+            <div class="row">
+                <div class="col-md col-sm-3 col-6 mb-4 collogo">
+                    <ul class="list-unstyled colinfo">
+                        <li>
+                            <a class="logo d-block mb-4" href="index.html"><img src="assets/static/logo.svg" alt="WriteLN"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md col-sm-3 col-6 mb-sm-0 mb-4">
+                    <h4>Support</h4>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="contact.html">Support Ticket</a></li>
+                        <li><a href="mailto:example@example.com">example@example.com</a></li>
+                        <li><a href="contact.html"></a></li>
+                    </ul>
+                </div>
+                <div class="col-md col-sm-3 col-6 mb-sm-0 mb-4">
+                    <h4>Product</h4>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="cloud.html">Cloud Server</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="api.html">API Documentation</a></li>
+                        <li><a href="api.html">API Library</a></li>
+                    </ul>
+                </div>
+                <div class="col-md col-sm-3 col-6 mb-sm-0 mb-4">
+                    <h4>Resources</h4>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="network-status.html">Network Status</a></li>
+                        <li><a href="refferer.html">Support Programs</a></li>
+                        <li><a href="operating-system.html">Operating System</a></li>
+                        <li><a href="applications.html">Applications</a></li>
+                        <li><a href="datacenters.html">Datacenter</a></li>
+                    </ul>
+                </div>
+                <div class="col-md col-sm-3 col-6 mb-sm-0 mb-4">
+                    <h4>Company</h4>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="teams.html">Teams</a></li>
+                        <li><a href="careers.html">Carrers</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="legal.html">Legal</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Footer Links Section-->
+
+    <!--Copyright Section-->
+    <div class="container">
+        <div class="pt-4 pb-4 d-flex copyright">
+            <div class="text-white mr-auto align-self-center">© Copyright 2021 WriteLN. All Right Reserved.
+            </div>
+        </div>
+    </div>
+    <!--End Copyright Section-->
+</footer>
+
+</body>
+</html>

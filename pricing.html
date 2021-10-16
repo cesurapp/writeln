@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Root -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta http-equiv="Content-Language" content="en">
+
+    <!-- Meta -->
+    <title>Pricing WriteLN</title>
+    <meta name="description" content="WriteLN HTML Cloud Theme">
+    <meta name="keywords" content="WriteLN, Theme"/>
+    <meta name="copyright" content="WriteLN">
+
+    <!-- Icons -->
+    <link rel="icon" href="assets/static/favicon.png">
+
+    <!-- Assets -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+    <link rel="stylesheet" href="assets/dist/bootstrap.css">
+    <link rel="stylesheet" href="assets/dist/app.css">
+    <script src="assets/dist/jquery.min.js"></script>
+    <script src="assets/dist/bootstrap.min.js"></script>
+    <script src="assets/dist/app.js"></script>
+</head>
+<body>
+
+<!------------------------------------------------------
+ ******************    Head Nav   **********************
+ ------------------------------------------------------>
+<nav class="navbar navbar-expand-md">
+    <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand logo" href="index.html"><img src="assets/static/logo.svg" alt="WriteLN"></a>
+        <!-- End Logo -->
+
+        <!-- Navbar Toggler -->
+        <button class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <!-- End Navbar Toggler -->
+
+        <!-- Navigation -->
+        <div id="navigation" class="navbar-collapse collapse">
+            <div class="content d-md-flex">
+                <!--Left Menu Section-->
+                <ul class="navbar-nav ml-md-5 mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="cloud.html">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Resources</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item media" href="faq.html">
+                                <i class="far fa-question-circle"></i>
+                                <span class="media-body align-self-center">FAQ</span>
+                            </a>
+                            <a class="dropdown-item media" href="refferer.html">
+                                <i class="fas fa-hand-holding-usd"></i>
+                                <span class="media-body align-self-center">Support Programs</span>
+                            </a>
+                            <a class="dropdown-item media" href="api.html">
+                                <i class="fas fa-code"></i>
+                                <span class="media-body align-self-center">Api Documentation</span>
+                            </a>
+                            <a class="dropdown-item media" href="network-status.html">
+                                <i class="fas fa-server"></i>
+                                <span class="media-body align-self-center">Network Status</span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <!-- End Left Menu Section -->
+
+                <!-- Right Menu Section -->
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Company</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item media" href="about.html">About</a>
+                            <a class="dropdown-item media" href="teams.html">Teams</a>
+                            <a class="dropdown-item media" href="careers.html">Careers</a>
+                            <a class="dropdown-item media" href="news.html">News</a>
+                            <a class="dropdown-item media" href="legal.html">Legal</a>
+                            <a class="dropdown-item media" href="contact.html">Contact</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                            <i class="fas fa-globe"></i>
+                            <span class="text">Language</span>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#!">Deutsche</a>
+                            <a class="dropdown-item" href="#!">English</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Login</a></li>
+                    <li class="nav-item hrbottom">
+                        <hr>
+                        <a class="btn btn-success btnregister" href="#!">Register</a>
+                    </li>
+                </ul>
+                <!-- End Right Menu Section -->
+            </div>
+        </div>
+        <!-- End Navigation -->
+    </div>
+</nav>
+
+<!------------------------------------------------------
+ ***************    Container   ***********************
+ ------------------------------------------------------>
+<main role="main">
+    <!--Hero Section-->
+    <div class="d-flex align-items-center section-main">
+        <div class="back-gradient">
+            <span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div class="container title">
+            <h1 class="display-4 mb-0">Pricing</h1>
+            <p class="description mb-0 mt-4">To provide a flexible, powerful, seamless and global cloud computing infrastructure, we develop products using the latest technologies and aim to offer them at minimum cost.</p>
+        </div>
+    </div>
+    <!--End Hero Section-->
+
+    <!-- Pricing Table-->
+    <div class="section section-price">
+        <div class="container">
+            <div class="pricing-table">
+                <div class="item-header">
+                    <span>CPU</span>
+                    <span>RAM</span>
+                    <span>Storage</span>
+                    <span>Bandwidth</span>
+                    <span>Price</span>
+                </div>
+                <div class="item" data-toggle="modal" data-target="#pricingModal" data-min="2" data-max="10">
+                    <span>1 <sup>CPU</sup></span>
+                    <span>2 <sup>GB</sup></span>
+                    <span>40 <sup>GB SSD</sup></span>
+                    <span>2 <sup>TB</sup></span>
+                    <span>
+                        $2-10 <sup>mo</sup>
+                        <span class="month">$0.002-0.01 <sup>hr</sup></span>
+                        <a class="calc"><i class="far fa-question-circle"></i></a>
+                    </span>
+                </div>
+                <div class="item" data-toggle="modal" data-target="#pricingModal" data-min="4" data-max="20">
+                    <span>2 <sup>CPU</sup></span>
+                    <span>4 <sup>GB</sup></span>
+                    <span>80 <sup>GB SSD</sup></span>
+                    <span>3 <sup>TB</sup></span>
+                    <span>
+                        $4-20 <sup>mo</sup>
+                        <span class="month">$0.002-0.01 <sup>hr</sup></span>
+                        <a class="calc"><i class="far fa-question-circle"></i></a>
+                    </span>
+                </div>
+                <div class="item" data-toggle="modal" data-target="#pricingModal" data-min="8" data-max="40">
+                    <span>4 <sup>CPU</sup></span>
+                    <span>8 <sup>GB</sup></span>
+                    <span>160 <sup>GB SSD</sup></span>
+                    <span>5 <sup>TB</sup></span>
+                    <span>
+                        $8-40 <sup>mo</sup>
+                        <span class="month">$0.002-0.01 <sup>hr</sup></span>
+                        <a class="calc"><i class="far fa-question-circle"></i></a>
+                    </span>
+                </div>
+                <div class="item" data-toggle="modal" data-target="#pricingModal" data-min="16" data-max="80">
+                    <span>6 <sup>CPU</sup></span>
+                    <span>12 <sup>GB</sup></span>
+                    <span>220 <sup>GB SSD</sup></span>
+                    <span>6 <sup>TB</sup></span>
+                    <span>
+                        $16-80 <sup>mo</sup>
+                        <span class="month">$0.002-0.01 <sup>hr</sup></span>
+                        <a class="calc"><i class="far fa-question-circle"></i></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Pricing Table-->
+
+    <!--Section WHAT-->
+    <div class="section section-color-green text-white  section-cloud section-pricing">
+        <div class="container text-center">
+            <div class="badge badge-app mb-4">WHAT?</div>
+            <h2 class="mb-4">Resource Based Pricing</h2>
+            <div class="description">You are charged as much as you use system resources. For CPU and Memory, the hourly usage average is measured and the amount in the price range of your current package is calculated and reflected in your account.</div>
+            <a class="btn btn-success" href="#!">Get Started</a>
+        </div>
+    </div>
+    <!--End Section WHAT-->
+
+    <!--Section DISCOUNT-->
+    <div class="section section-cloud section-pricing">
+        <div class="container text-center">
+            <div class="badge badge-app mb-4">DISCOUNT</div>
+            <h2 class="mb-4">Discount Programs</h2>
+            <div class="description mb-5">You can get up to 50% discounts with our start-up developers, students and entrepreneurs.</div>
+
+            <div><a href="refferer.html" class="btn btn-lg btn-success">DETAILED REVIEW</a></div>
+        </div>
+    </div>
+    <!--End Section DISCOUNT-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="pricingModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">
+                        <i class="far fa-question-circle text-success"></i>
+                        Resource Price Calculation
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div id="calculator">
+                        <div class="form-group mb-4">
+                            Calculations are performed hourly. Enter the hourly average Processor and Memory
+                            usage for your virtual machine.
+                        </div>
+                        <div class="form-group">
+                            <label for="cpu" class="font-weight-bold">Using an Hourly Processor (%): <span class="count">50</span></label>
+                            <input type="range" class="custom-range" min="0" max="100" step="1" id="cpu">
+                        </div>
+                        <div class="form-group pb-2">
+                            <label for="ram" class="font-weight-bold">Hourly Memory Usage (%): <span class="count">50</span></label>
+                            <input type="range" class="custom-range" min="0" max="100" step="1" id="ram">
+                        </div>
+                        <hr class="mt-4 mb-4">
+                        <div class="form-group mb-0">
+                            <table class="table table-borderless table-sm text-right mb-0">
+                                <tr>
+                                    <th>Range Resources:</th>
+                                    <td id="resource">$2-10</td>
+                                </tr>
+                                <tr>
+                                    <th>Hourly Fee:</th>
+                                    <td id="priceHours">$0.003</td>
+                                </tr>
+                                <tr>
+                                    <th>Monthly Fee (30 Days):</th>
+                                    <td id="priceMonth">$8.44</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">CLOSE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal -->
+</main>
+
+
+<!------------------------------------------------------
+ *******************    Footer   ***********************
+ ------------------------------------------------------>
+<footer class="footer cta">
+    <!--Footer Background Section-->
+    <div class="back-footer">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <!--End Footer Background Section-->
+
+    <!--Footer CTA-->
+    <div class="footercta">
+        <div class="container">
+            <div class="content d-flex bg-success">
+                <h2 class="text-white mr-auto align-self-center">Get started in the Flexible Cloud!</h2>
+                <div class="buttons">
+                    <a class="btn btn-lg btn-dark" href="/register">CREATE ACCOUNT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Footer CTA-->
+
+    <!--Footer Links Section-->
+    <div class="footersub">
+        <div class="container">
+            <div class="row">
+                <div class="col-md col-sm-3 col-6 mb-4 collogo">
+                    <ul class="list-unstyled colinfo">
+                        <li>
+                            <a class="logo d-block mb-4" href="index.html"><img src="assets/static/logo.svg" alt="WriteLN"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md col-sm-3 col-6 mb-sm-0 mb-4">
+                    <h4>Support</h4>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="contact.html">Support Ticket</a></li>
+                        <li><a href="mailto:example@example.com">example@example.com</a></li>
+                        <li><a href="contact.html"></a></li>
+                    </ul>
+                </div>
+                <div class="col-md col-sm-3 col-6 mb-sm-0 mb-4">
+                    <h4>Product</h4>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="cloud.html">Cloud Server</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="api.html">API Documentation</a></li>
+                        <li><a href="api.html">API Library</a></li>
+                    </ul>
+                </div>
+                <div class="col-md col-sm-3 col-6 mb-sm-0 mb-4">
+                    <h4>Resources</h4>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="network-status.html">Network Status</a></li>
+                        <li><a href="refferer.html">Support Programs</a></li>
+                        <li><a href="operating-system.html">Operating System</a></li>
+                        <li><a href="applications.html">Applications</a></li>
+                        <li><a href="datacenters.html">Datacenter</a></li>
+                    </ul>
+                </div>
+                <div class="col-md col-sm-3 col-6 mb-sm-0 mb-4">
+                    <h4>Company</h4>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="teams.html">Teams</a></li>
+                        <li><a href="careers.html">Carrers</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="legal.html">Legal</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Footer Links Section-->
+
+    <!--Copyright Section-->
+    <div class="container">
+        <div class="pt-4 pb-4 d-flex copyright">
+            <div class="text-white mr-auto align-self-center">© Copyright 2021 WriteLN. All Right Reserved.
+            </div>
+        </div>
+    </div>
+    <!--End Copyright Section-->
+</footer>
+
+</body>
+</html>

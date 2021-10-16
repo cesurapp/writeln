@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "watch": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.14.3"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "^6.3.0",
+    "sass": "^1.42.1",
+    "sass-loader": "^12.1.0",
+    "terser-webpack-plugin": "^5.2.4",
+    "mini-css-extract-plugin": "^2.4.2",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-fix-style-only-entries": "^0.6.1"
+  }
+}
