@@ -11,6 +11,9 @@ $color-light: $green;
 $text-grey: $gray-700;
 $text-dark: $black;
 
+/*======================================================
+ Structures
+=======================================================*/
 html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -71,6 +74,52 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+hr {
+  display: none;
+}
+
+.fs {
+  &--1 {
+    font-size: $font-size-base - .02;
+  }
+
+  &--2 {
+    font-size: $font-size-base - .04;
+  }
+
+  &--3 {
+    font-size: $font-size-base - .06;
+  }
+
+  &--4 {
+    font-size: $font-size-base - .08;
+  }
+
+  &--5 {
+    font-size: $font-size-base - .1;
+  }
+
+  &-1 {
+    font-size: $font-size-base + .1;
+  }
+
+  &-2 {
+    font-size: $font-size-base + .2;
+  }
+
+  &-3 {
+    font-size: $font-size-base + .3;
+  }
+
+  &-4 {
+    font-size: $font-size-base + .4;
+  }
+
+  &-5 {
+    font-size: $font-size-base + .5;
+  }
 }
 
 /*======================================================
@@ -163,10 +212,6 @@ nav.navbar {
     }
   }
 
-  hr {
-    display: none;
-  }
-
   @keyframes lineEffect {
     0% {
       height: 0;
@@ -212,14 +257,6 @@ nav.navbar {
   img {
     width: 120px;
     height: 20px;
-    margin-top: -5px;
-  }
-}
-
-.kosgeb-logo {
-  img {
-    max-width: 100%;
-    height: 125px;
     margin-top: -5px;
   }
 }
@@ -670,6 +707,10 @@ footer {
   }
 }
 
+
+/*======================================================
+ Section Image
+=======================================================*/
 .section-image {
   overflow-x: hidden;
 
@@ -711,6 +752,10 @@ footer {
   }
 }
 
+
+/*======================================================
+ Section Home
+=======================================================*/
 .section-home {
   min-height: 100vh;
   overflow: hidden;
@@ -797,6 +842,10 @@ footer {
   }
 }
 
+
+/*======================================================
+ Section Product
+=======================================================*/
 .section-product {
   .section-title {
     margin-bottom: 3rem;
@@ -880,6 +929,10 @@ footer {
   }
 }
 
+
+/*======================================================
+ Section Features
+=======================================================*/
 .section-features {
   .item {
     background: #1280e1;
@@ -957,6 +1010,10 @@ footer {
   }
 }
 
+
+/*======================================================
+ API Page
+=======================================================*/
 .section-api {
   .api {
     text-align: center;
@@ -1078,6 +1135,10 @@ footer {
   }
 }
 
+
+/*======================================================
+  Logo Page
+=======================================================*/
 .section-applogos {
   ul {
     display: flex;
@@ -1182,6 +1243,10 @@ footer {
   }
 }
 
+
+/*======================================================
+ Teams & Job Page
+=======================================================*/
 .person {
   text-align: center;
   margin: 1.5rem 0;
@@ -1275,6 +1340,9 @@ footer {
   }
 }
 
+/*======================================================
+ FAQ PAGE
+=======================================================*/
 .section-faq {
   .block {
     border-bottom: 1px solid rgba(0, 0, 0, .1);
@@ -1352,48 +1420,10 @@ footer {
   }
 }
 
-.fs {
-  &--1 {
-    font-size: $font-size-base - .02;
-  }
 
-  &--2 {
-    font-size: $font-size-base - .04;
-  }
-
-  &--3 {
-    font-size: $font-size-base - .06;
-  }
-
-  &--4 {
-    font-size: $font-size-base - .08;
-  }
-
-  &--5 {
-    font-size: $font-size-base - .1;
-  }
-
-  &-1 {
-    font-size: $font-size-base + .1;
-  }
-
-  &-2 {
-    font-size: $font-size-base + .2;
-  }
-
-  &-3 {
-    font-size: $font-size-base + .3;
-  }
-
-  &-4 {
-    font-size: $font-size-base + .4;
-  }
-
-  &-5 {
-    font-size: $font-size-base + .5;
-  }
-}
-
+/*======================================================
+ OPERATING SYSTEM
+=======================================================*/
 .card-os {
   background: #FFF;
   border: 1px solid rgba(0, 0, 0, .1);
@@ -1448,6 +1478,9 @@ footer {
   font-size: $font-size-base - .1;
 }
 
+/*======================================================
+ SECTION CLOUD
+=======================================================*/
 .section-cloud {
   .card-os {
     padding: 1.5rem;
@@ -1461,6 +1494,9 @@ footer {
   }
 }
 
+/*======================================================
+ SECTION INFRASTRUCTURE
+=======================================================*/
 .section-infrastructure {
   .features {
     text-align: left;
@@ -1476,6 +1512,9 @@ footer {
   }
 }
 
+/*======================================================
+ SECTION MANAGE
+=======================================================*/
 .section-manage {
   .timeline {
     position: relative;
@@ -1588,6 +1627,9 @@ footer {
   }
 }
 
+/*======================================================
+ PRICING PAGE
+=======================================================*/
 .pricing-table {
   display: flex;
   flex-direction: column;
@@ -1676,6 +1718,9 @@ footer {
   }
 }
 
+/*======================================================
+ BLOG PAGE
+=======================================================*/
 .section-blog {
   .post {
     & + .post {
