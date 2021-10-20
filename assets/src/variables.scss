@@ -949,3 +949,11 @@ $pre-scrollable-max-height:         340px !default;
 // Printing
 $print-page-size:                   a3 !default;
 $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
+
+// Custom Variables
+$gradiend-blue: radial-gradient(circle, #333333 0%, #000000 100%);
+$gradiend-green: radial-gradient(circle, #5abe01 0%, #2e6100 100%);
+$color: #367201;
+$color-light: $green;
+$text-grey: $gray-700;
+$text-dark: $black;

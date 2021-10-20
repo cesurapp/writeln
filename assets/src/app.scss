@@ -1,15 +1,39 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:      WriteLN Theme
+Version:      1.0
+Last change:  20.10.2021
+-------------------------------------------------------------------*/
+
+/*======================================================
+ Table of Contents
+=======================================================*/
+// 1. Dependencies
+// 2. Structure
+// 3. Header & Menu
+// 4. Footer
+// 5. Content
+// 6. Section Image
+// 7. Section Home
+// 8. Section Product
+// 9. Section Features
+// 10. API Page
+// 11. Logo Page
+// 12. Teams & Job Page
+// 13. FAQ Page
+// 14. Operating System
+// 15. Section Cloud
+// 16. Section Infrastructure
+// 17. Section Manage
+// 18. Pricing Page
+// 19. Blog Page
+
 /*======================================================
  Dependencies
 =======================================================*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap&subset=latin-ext');
 @import "./variables.scss";
-
-$gradiend-blue: radial-gradient(circle, #333333 0%, #000000 100%);
-$gradiend-green: radial-gradient(circle, #5abe01 0%, #2e6100 100%);
-$color: #367201;
-$color-light: $green;
-$text-grey: $gray-700;
-$text-dark: $black;
 
 /*======================================================
  Structures
@@ -1422,7 +1446,7 @@ footer {
 
 
 /*======================================================
- OPERATING SYSTEM
+ Operating System
 =======================================================*/
 .card-os {
   background: #FFF;
